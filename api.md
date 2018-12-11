@@ -1,10 +1,7 @@
 # Standard API Document
-
-## Table BCItem
-
 ### API Name
 
-##### Table BCAr (ทะเบียนลูกค้า)
+##### (ทะเบียนลูกค้า) 
 
 ###### API Name
 
