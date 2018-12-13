@@ -872,8 +872,8 @@
     - Request
 ```json
 {
-   	"Code":"99999",
-   	"Name1":"xxxx",
+   	"Code":"99999",***
+   	"Name1":"xxxx",***
    	"Name2":"xxxx",
    	"ShortName":"xxx",
    	"CategoryCode":"",
@@ -882,8 +882,8 @@
    	"TypeCode":"",
    	"FormatCode":"",
    	"ColorCode":"",
-   	"UnitType":0,
-   	"DefStkUnitCode":"xxx",
+   	"UnitType":0,***
+   	"DefStkUnitCode":"xxx",***
    	"DefSaleUnitCode":"xx",
    	"DefBuyUnitCode":"xx",
    	"StockType":0,
@@ -894,16 +894,20 @@
    	"StockQty":0,
    	"PicFileName1":"xxx",
    	"PicFileName2":"",
-    "MyDescription":"",
+    	"MyDescription":"",
    	"DefBuyWHCode":"xxx",
    	"DefBuyShelf":"xxx",
    	"DefSaleWHCode":"xxx",
    	"DefSaleShelf":"xxx",
    	"SalePrice1":100,
    	"SalePrice2":120,
-    "SalePrice3":0,
+    	"SalePrice3":0,
    	"SalePrice4":0,
-   	"UserCode":"admin"
+   	"UserCode":"admin", ***
+	"item_multi_unit":[
+		{"unit_code":"อัน","rate":1},
+		{"unit_code":"กล่อง","rate":20}
+	]
    	}
 ```
 #####Table BCAp
