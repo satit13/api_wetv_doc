@@ -103,15 +103,15 @@
        - Request
 ```json
 {
-    "code": "A00504",
-    "name_1": "คุณณรงค์ฤทธิ์ อินผูก",
+    "code": "A00504",***
+    "name_1": "คุณณรงค์ฤทธิ์ อินผูก",***
     "name_2": "NARONGRIT INPOOK",
-    "bill_address": "9/1 บ.หนองหล่ม ม.4 ถ.เชียงใหม่-ฝาง ต.สันมหาพน อ.แม่แตง จ.เชียงใหม่ 50150 ",
+    "bill_address": "9/1 บ.หนองหล่ม ม.4 ถ.เชียงใหม่-ฝาง ต.สันมหาพน อ.แม่แตง จ.เชียงใหม่ 50150 ",***
     "work_address": "70/9 บ.ชลประทาน ต.ฟ้าฮ่าม อ.เมือง จ.เชียงใหม่ 50000",
     "telephone": "053471210,019512657",
     "fax": "",
     "account_code": "",
-    "id_card_no": "3520800348371",
+    "id_card_no": "3520800348371",***
     "credit_status": 0,
     "debt_limit_1": 1,
     "debt_limit_2": 0,
@@ -123,14 +123,15 @@
     "group_code": "060",
     "email_address": "",
     "group_of_debt": "10",
-    "person_type": 0,
+    "person_type": 0,***
     "birth_day": "08/12/2530",
     "cust_age": 38,
     "cust_status": 0,
     "cust_credit_type": 0,
     "depart_code": "",
     "memberid": "2300600270123",
-    "user_code": "admin"
+    "active_status":1,
+    "user_code": "admin"***
 }
 
 ```
@@ -992,16 +993,16 @@
     - Request
 ```json
 {
-   	"code": "036240000",
-    "name_1": "บริษัท สยามมอร์ตาร์ จำกัด",
+    "code": "036240000",***
+    "name_1": "บริษัท สยามมอร์ตาร์ จำกัด",***
     "name_2": "บริษัท สยามมอร์ตาร์ จำกัด",
     "def_delivery_addr": "",
     "def_contact_code": "",
-    "address": "110 หมู่ 1 ต.บ้านป่า อ.แก่งคอย จ.สระบุรี 18110",
+    "address": "110 หมู่ 1 ต.บ้านป่า อ.แก่งคอย จ.สระบุรี 18110",***
     "telephone": "036-240000",
     "fax": "036-240083",
     "account_code": "xxx",
-    "id_card_no": "xxx",
+    "id_card_no": "xxx",***
     "bank_acc_no": "",
     "credit_day": 7,
     "default_tax_rate": 7,
@@ -1010,9 +1011,9 @@
     "email_address": "",
     "group_code": "06",
     "group_of_debt": "",
-    "person_type": 1,
-    "active_status": 1,
-    "user_code": "admin"
+    "person_type": 1,***
+    "active_status": 1,***
+    "user_code": "admin"***
    	}
 ```
 #####Table BCApInvoice
